@@ -19,11 +19,7 @@ jobs:
       - name: instalar dependencias
         run: |
           python -m pip install --upgrade pip
-<<<<<<< HEAD
           python -m pip install -r requeriments.txt
-=======
-          python -m pip install -r requiriments.txt
->>>>>>> 6b47ff6 (correção codigo)
 
       - name: Executar Testes
         run: |
